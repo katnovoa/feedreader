@@ -7,6 +7,7 @@ In this project we are given a web-based application that reads RSS feeds. The o
 * Download/Clone the following repo: https://katnovoa.github.io/udacity-feedreader-testing/.
 * Load index.html in browser
 * Check feeds and test
+* Currently live at: https://katnovoa.github.io/udacity-feedreader-testing/
 
 ## Tech Used
 * Jasmine 2.1.2
