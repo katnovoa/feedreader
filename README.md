@@ -16,5 +16,5 @@ In this project we are given a web-based application that reads RSS feeds. The o
 * Project assets: https://github.com/udacity/frontend-nanodegree-feedreader
 
 ## Huge thanks to:
-* The Udacity slack channel for Fend Project 4
-* All the awesome resources collected by Janice Medina for the FEND team especially the following: Matthew Crawfords FeedReader walk through
+* The Udacity slack channel for Fend Project 4 where fellow students share resources
+* All the awesome resources collected by Janice Medina for the FEND student resource library
