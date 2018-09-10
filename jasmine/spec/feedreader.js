@@ -50,6 +50,7 @@ $(function() {
     it('menu is hidden', function() {
       const body = document.querySelector('body');
       expect(body.classList.contains('menu-hidden')).toBe(true);
+
     });
 
     //checks menu for toggles on/off on clicks
@@ -58,9 +59,9 @@ $(function() {
       const menu = document.querySelector('.menu-icon-link');
 
       menu.click();
-      expect(body.className).not.toContain('menu-hidden');
+      expect(body.classList).not.toContain('menu-hidden');
       menu.click();
-      expect(body.className).toContain('menu-hidden');
+      expect(body.classList).toContain('menu-hidden');
 
     });
   });
@@ -75,8 +76,10 @@ $(function() {
 
     //checks for completed work to contain content
     it('completes work', function() {
-      const feed = document.querySelector('.feed');
-      expect(feed.children.length > 0).toBe(true);
+      const container = document.querySelector('.feed, .entry');
+      console.log(container);
+      expect(container.children.length > 0).toBe(true);
+      console.log(container.children.length);
     });
   });
 
